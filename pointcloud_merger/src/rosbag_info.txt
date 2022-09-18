@@ -1,0 +1,67 @@
+path:        2022-04-11-16-24-01.bag
+version:     2.0
+duration:    17:32s (1052s)
+start:       Apr 11 2022 16:24:01.38 (1649708641.38)
+end:         Apr 11 2022 16:41:33.45 (1649709693.45)
+size:        129.3 GB
+messages:    153094
+compression: none [42725/42725 chunks]
+types:       gps_driver/gps_data     [895bd27bcff01d2109646da982c5ec28]
+             sensor_msgs/Image       [060021388200f6f0f447d0fcd9c64743]
+             sensor_msgs/Imu         [6a62c6daae103f4ff57a132d6f95cec2]
+             sensor_msgs/PointCloud2 [1158d486dd51d683ce2f1be655c3c181]
+topics:      /camera_array/cam0/image_raw    9065 msgs    : sensor_msgs/Image      
+             /camera_array/cam1/image_raw    8929 msgs    : sensor_msgs/Image      
+             /camera_array/cam2/image_raw    7809 msgs    : sensor_msgs/Image      
+             /camera_array/cam3/image_raw    7565 msgs    : sensor_msgs/Image      
+             /imu/imu                       99233 msgs    : sensor_msgs/Imu        
+             /ns1/velodyne_points            9696 msgs    : sensor_msgs/PointCloud2
+             /ns2/velodyne_points            9808 msgs    : sensor_msgs/PointCloud2
+             /pub_gps_data                    989 msgs    : gps_driver/gps_data
+             
+             
+###################################################################################################
+###################################################################################################
+
+/ns1/delodyne_points
+             
+header
+	seq:  26990
+	stamp
+		secs:  1649449121
+		nsecs:  676999000
+	frame_id: vlp16_port
+height:  1
+width:  23438
+fields
+	[0]
+		name: x
+		offset:  0
+		datatype:  7
+		count:  1
+	[1]
+		name: y
+		offset:  4
+		datatype:  7
+		count:  1
+	[2]
+		name: z
+		offset:  8
+		datatype:  7
+		count:  1
+	[3]
+		name: intensity
+		offset:  16
+		datatype:  7
+		count:  1
+	[4]
+		name: ring
+		offset:  20
+		datatype:  4
+		count:  1
+is_bigendian: False
+point_step:  32
+row_step:  750016
+data
+is_dense: True
+             

@@ -1,0 +1,33 @@
+digraph G {
+"base_footprint" -> "base_link"[label=" Broadcaster: /play_1660332022873013109\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"cam_array_base_link" -> "cam_0_link"[label=" Broadcaster: /play_1660332022873013109\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_footprint" -> "cam_array_base_link"[label=" Broadcaster: /play_1660332022873013109\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"cam_0_link" -> "cam_0_optical_frame"[label=" Broadcaster: /play_1660332022873013109\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"cam_array_base_link" -> "cam_1_link"[label=" Broadcaster: /play_1660332022873013109\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"cam_1_link" -> "cam_1_optical_frame"[label=" Broadcaster: /play_1660332022873013109\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"cam_array_base_link" -> "cam_2_link"[label=" Broadcaster: /play_1660332022873013109\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"cam_2_link" -> "cam_2_optical_frame"[label=" Broadcaster: /play_1660332022873013109\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"cam_array_base_link" -> "cam_3_link"[label=" Broadcaster: /play_1660332022873013109\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"cam_3_link" -> "cam_3_optical_frame"[label=" Broadcaster: /play_1660332022873013109\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"cam_array_base_link" -> "cam_4_link"[label=" Broadcaster: /play_1660332022873013109\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"cam_4_link" -> "cam_4_optical_frame"[label=" Broadcaster: /play_1660332022873013109\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"cam_array_base_link" -> "imu_base_link"[label=" Broadcaster: /play_1660332022873013109\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"imu_base_link" -> "imu"[label=" Broadcaster: /play_1660332022873013109\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"cam_array_base_link" -> "os_sensor"[label=" Broadcaster: /play_1660332022873013109\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"cam_array_base_link" -> "vlp16_port_base_link"[label=" Broadcaster: /play_1660332022873013109\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"vlp16_port_base_link" -> "vlp16_port"[label=" Broadcaster: /play_1660332022873013109\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"cam_array_base_link" -> "vlp16_starboard_base_link"[label=" Broadcaster: /play_1660332022873013109\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"vlp16_starboard_base_link" -> "vlp16_starboard"[label=" Broadcaster: /play_1660332022873013109\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"os_sensor" -> "os_imu"[label=" Broadcaster: /play_1660332022873013109\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"os_sensor" -> "os_lidar"[label=" Broadcaster: /play_1660332022873013109\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "steer_fl"[label=" Broadcaster: /play_1660332022873013109\nAverage rate: 25.203\nBuffer length: 4.96\nMost recent transform: 1649449125.526\nOldest transform: 1649449120.567\n"];
+"base_link" -> "steer_fr"[label=" Broadcaster: /play_1660332022873013109\nAverage rate: 25.203\nBuffer length: 4.96\nMost recent transform: 1649449125.526\nOldest transform: 1649449120.567\n"];
+"steer_fl" -> "wheel_fl"[label=" Broadcaster: /play_1660332022873013109\nAverage rate: 25.203\nBuffer length: 4.96\nMost recent transform: 1649449125.526\nOldest transform: 1649449120.567\n"];
+"steer_fr" -> "wheel_fr"[label=" Broadcaster: /play_1660332022873013109\nAverage rate: 25.203\nBuffer length: 4.96\nMost recent transform: 1649449125.526\nOldest transform: 1649449120.567\n"];
+"base_link" -> "wheel_rl"[label=" Broadcaster: /play_1660332022873013109\nAverage rate: 25.203\nBuffer length: 4.96\nMost recent transform: 1649449125.526\nOldest transform: 1649449120.567\n"];
+"base_link" -> "wheel_rr"[label=" Broadcaster: /play_1660332022873013109\nAverage rate: 25.203\nBuffer length: 4.96\nMost recent transform: 1649449125.526\nOldest transform: 1649449120.567\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1660332029.4434438"[ shape=plaintext ] ;
+}->"base_footprint";
+}
